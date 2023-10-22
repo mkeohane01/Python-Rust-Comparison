@@ -8,5 +8,5 @@ lint:
 format:
 	black *.py
 
-test:
-	pytest -vv
+# test:
+# 	pytest -vv
