@@ -22,7 +22,7 @@
 #### Output
 ![Alt text](images/rust_test.png)
 
-### Comparison
+## Comparison
 | Metric | Python | Rust | Ratio (Python / Rust) |
 |--------|--------|------|-----------------------|
 | Time (s) | 0.1686 | 0.1579 | 1.068 |
