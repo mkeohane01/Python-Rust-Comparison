@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 # import resource - not available on Windows
 import time
 import psutil

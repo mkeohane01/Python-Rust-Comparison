@@ -3,10 +3,10 @@ install:
 		pip install -r requirements.txt
 
 lint:
-	ruff check *.py
+	ruff check python_scripts/*.py
 
 format:
-	black *.py
+	black python_scripts/*.py
 
 # test:
 # 	pytest -vv

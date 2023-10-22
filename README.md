@@ -1,6 +1,6 @@
 # Comparing Rust and Python Performance
 
-[![CI](https://github.com/mkeohane01/python_template/actions/workflows/main.yml/badge.svg)](https://github.com/mkeohane01/python_template/actions/workflows/main.yml)
+[![CI](https://github.com/mkeohane01/Python-Rust-Comparison/actions/workflows/main.yml/badge.svg)](https://github.com/mkeohane01/Python-Rust-Comparison/actions/workflows/main.yml)
 
 - Compare the time and memory usage for similar python and rust scripts.
 - Comparing a function loading then sorting a baseball pitching data set
@@ -18,7 +18,7 @@
 ## Rust
 #### Usage
 - ```cargo build``` 
-- ```cargo run```
+- ```cargo run --release```
 #### Output
 ![Alt text](images/rust_test.png)
 
@@ -31,4 +31,4 @@
 ### Conclusion
 - Rust is both faster and more memory efficient than python
 - Without more tests cannot confidently say by how much.
-- I predict with much larger data sets, Rust will y vastly better than python at processing.
+- I predict with much larger data sets, Rust will perform vastly better than python at processing.
